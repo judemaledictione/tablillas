@@ -29,7 +29,7 @@
   --accent-ultrabright: light-dark(#dc2626, #ef4444);
   --live: light-dark(#b45309, #d97706);
   --white: light-dark(#111, #fff);
-  --width: clamp(20rem, 90%, 65rem);
+  --width: clamp(20rem, 75%, 65rem);
   --font-display: "Syne", sans-serif;
   --font-body: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
