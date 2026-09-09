@@ -29,15 +29,14 @@
   --accent-ultrabright: light-dark(#dc2626, #ef4444);
   --live: light-dark(#b45309, #d97706);
   --white: light-dark(#111, #fff);
-  --width: clamp(20rem, 80%, 65rem);
+  --width: clamp(20rem, 85%, 65rem);
   --font-display: "Syne", sans-serif;
   --font-body: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   --font-serif: "Cormorant Garamond", serif;
   --font-title: "Playfair Display", serif;
   --font-gothic: "Manufacturing Consent", serif;
-  width: 100%;
-  max-width: var(--width);
+  width: var(--width);
   margin: 40px auto;
   box-sizing: border-box;
   background: var(--bg);
