@@ -38,7 +38,7 @@
   --font-title: "Playfair Display", serif;
   --font-gothic: "Manufacturing Consent", serif;
   width: var(--width);
-  margin: 40px auto;
+  margin: 0 auto;
   box-sizing: border-box;
   background: var(--bg);
   border: 1px solid var(--border);
@@ -839,7 +839,7 @@
   --font-gothic: "Manufacturing Consent", serif;
   width: 100%;
   max-width: var(--width);
-  margin: 40px auto;
+  margin: 0 auto;
   box-sizing: border-box;
   background: var(--bg);
   border: 1px solid var(--border);
