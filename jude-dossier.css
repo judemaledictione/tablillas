@@ -667,7 +667,7 @@
       }
     }
   }
-  @media (max-width: 600px) {
+  @container (max-width: 600px) {
     margin: 20px 8px;
     & > .topbar {
       & .identity .separator,
@@ -768,7 +768,7 @@
       }
     }
   }
-  @media (max-width: 400px) {
+  @container (max-width: 400px) {
     & > .topbar {
       & .index {
         & .level {
