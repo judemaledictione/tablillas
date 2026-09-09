@@ -981,7 +981,7 @@
       position: relative;
       z-index: 2;
       padding: 32px 32px 30px;
-      place-self:center;
+      place-self: flex-end stretch;
     }
     & .header-image {
       overflow:hidden;
