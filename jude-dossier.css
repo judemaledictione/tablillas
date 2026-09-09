@@ -30,7 +30,7 @@
   --accent-ultrabright: light-dark(#dc2626, #ef4444);
   --live: light-dark(#b45309, #d97706);
   --white: light-dark(#111, #fff);
-  --width: clamp(20rem, 85%, 65rem);
+  --width: clamp(20rem, 85%, 85rem);
   --font-display: "Syne", sans-serif;
   --font-body: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -828,9 +828,9 @@
   --accent-ultrabright: hsl(from light-dark(#dc2626, #ef4444) var(--accent-h) s l);
   --live:hsl(from light-dark(#b45309, #d97706) var(--live-h) s l);
   --white: light-dark(#111, #fff);
-  --width: clamp(20rem, 100%, 100rem);
-  --imagen-height:25rem;
-  --grid-lock-height:55rem;
+  --width: clamp(20rem, 80%, 100rem);
+  --imagen-height:35rem;
+  --grid-lock-height:65rem;
   --font-display: "Syne", sans-serif;
   --font-body: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -934,7 +934,7 @@
     border-bottom: 1px solid var(--border-light);
     background: linear-gradient(90deg, var(--bg-light) 0%, var(--bg-red) 45%, var(--bg-red-light) 100%);
     display:grid;
-    grid-template-columns:1fr 2fr;
+    grid-template-columns:1fr 2.1fr;
     grid-template-rows:100%;
     height:var(--imagen-height);
     & .texture {
