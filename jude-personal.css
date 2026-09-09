@@ -532,6 +532,14 @@
     color: var(--text-muted);
     font: 500 9px var(--font-mono);
     letter-spacing: 0.08em;
+    &.leyenda {
+      border-bottom: 1px solid var(--border);
+      text-transform:uppercase;
+      font-size:10px;
+      & .footer-left a {
+        font-size:12px;
+      }
+    }
     & .footer-left,
     & .footer-right {
       display: flex;
